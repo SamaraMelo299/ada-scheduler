@@ -1,144 +1,95 @@
-💎 Ada Beauty — Sistema de Agendamento para Salão de Beleza
+# 📅 ADA SCHULDER (Agendador de Horários)
+### API REST com Java + Spring Boot
 
-Sistema completo de agendamento desenvolvido com Spring Boot (Java) no back-end e HTML, CSS e JavaScript no front-end, simulando um ambiente real de salão de beleza premium.
+![Java](https://img.shields.io/badge/Lang-Java-red?logo=java)
+![Spring Boot](https://img.shields.io/badge/Framework-Spring%20Boot-green?logo=springboot)
+![API](https://img.shields.io/badge/Type-REST-blue)
 
-O projeto tem como objetivo demonstrar a construção de um CRUD completo de agendamentos, aliado a uma interface moderna voltada para experiência do cliente.
+---
 
-✨ Sobre o Projeto
+## 📌 Sobre o Projeto
 
-O Ada Beauty é um sistema fictício de salão de beleza criado como projeto de portfólio para praticar:
+Sistema de gerenciamento de agendamentos desenvolvido em **Java** utilizando **Spring Boot**.
 
-Desenvolvimento backend com Spring Boot
+O projeto consiste em uma **API REST** responsável por realizar operações completas de **CRUD (Create, Read, Update, Delete)** para controle de horários, seguindo boas práticas de organização backend e separação de responsabilidades.
 
-Integração frontend + API REST
+---
 
-CRUD completo
+## 💻 Tecnologias Utilizadas
 
-Estruturação de projeto full-stack
+- Java  
+- Spring Boot  
+- Spring Web  
 
-Experiência visual aplicada a negócios reais
+---
 
-A proposta é simular um sistema real de agendamento online para salão premium.
+## 📡 Funcionalidades
 
-🚀 Funcionalidades
-📅 Agendamentos (CRUD)
+- ✅ Criar novos agendamentos  
+- ✅ Listar agendamentos cadastrados  
+- ✅ Buscar agendamento por ID  
+- ✅ Atualizar informações  
+- ✅ Excluir agendamentos  
+- ✅ Estrutura organizada para desenvolvimento backend  
 
-Criar novos agendamentos
+---
 
-Consultar horários marcados
+## 📂 Estrutura do Projeto
 
-Excluir agendamentos
-
-Integração frontend ↔ backend via API REST
-
-💇 Interface do Salão
-
-Página institucional do salão
-
-Apresentação dos serviços
-
-Equipe de profissionais
-
-Avaliações de clientes
-
-Portfólio visual de serviços
-
-Layout responsivo e moderno
-
-🛠️ Tecnologias Utilizadas
-Backend
-
-Java
-
-Spring Boot
-
-Spring Web
-
-API REST
-
-Maven
-
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript Vanilla
-
-📂 Estrutura do Projeto
-ada-beauty/
+```bash
+agendador-horarios/
 │
-├── backend/
-│   ├── controller/
-│   ├── model/
-│   ├── service/
-│   └── repository/
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
+├── src/main/java/...        → Código fonte da aplicação
+├── src/main/resources/      → Arquivos de configuração
 └── README.md
+```
 
-⚙️ Como Executar o Projeto
-1️⃣ Clonar o repositório
-git clone https://github.com/SamaraMelo299/agendador-horarios
+---
 
-2️⃣ Backend (Spring Boot)
-cd backend
-mvn spring-boot:run
+## ▶️ Como Rodar Localmente
 
+### 🔹 Clonar o repositório
 
-Servidor padrão:
+```bash
+git clone https://github.com/SamaraMelo299/agendador-horarios.git
+cd agendador-horarios
+```
 
+### 🔹 Executar a aplicação
+
+Após iniciar, a API estará disponível em:
+
+```
 http://localhost:8080
+```
 
-3️⃣ Frontend
+---
 
-Abra o arquivo:
+## 🎯 Objetivo do Projeto
 
-frontend/index.html
+Este projeto foi desenvolvido para:
 
+- Praticar desenvolvimento backend com Spring Boot  
+- Implementar uma API REST com CRUD completo  
+- Aplicar boas práticas de organização de código  
+- Consolidar fundamentos de arquitetura backend  
 
-Ou utilize extensão Live Server no VS Code.
+---
 
-📌 Endpoints Principais
-Método	Endpoint	Descrição
-POST	/agendamentos	Criar agendamento
-GET	/agendamentos	Listar agendamentos
-DELETE	/agendamentos/{id}	Remover agendamento
+## 🔮 Próximos Passos
 
-(Pode variar conforme sua implementação)
+- Implementar validações de dados  
+- Adicionar tratamento global de exceções  
+- Documentar endpoints  
+- Conectar a banco persistente  
+- Implementar testes automatizados  
 
-🎯 Objetivo Profissional
+---
 
-Este projeto foi desenvolvido com foco em:
+## 👩‍💻 Desenvolvido por
 
-Evolução como desenvolvedora full stack
+**Samara Melo**  
 
-Prática real de integração backend + frontend
+Estudante de tecnologia com foco em desenvolvimento web fullstack.
 
-Construção de portfólio profissional
-
-Aplicação de design orientado à experiência do usuário
-
-👩‍💻 Autora
-
-Samara Melo
-Desenvolvedora em formação na área de tecnologia, com foco em desenvolvimento web e construção de soluções completas.
-
-⭐ Possíveis Melhorias Futuras
-
-Sistema de login/admin
-
-Agenda visual em calendário
-
-Edição de agendamentos
-
-Banco de dados persistente
-
-Deploy completo (frontend + backend)
-
-Painel administrativo
+Construindo projetos práticos e evoluindo continuamente na área.
