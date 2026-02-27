@@ -37,10 +37,10 @@ O projeto consiste em uma **API REST** responsável por realizar operações com
 ## 📂 Estrutura do Projeto
 
 ```bash
-agendador-horarios/
+ada-scheduler/
 │
-├── src/main/java/...        → Código fonte da aplicação
-├── src/main/resources/      → Arquivos de configuração
+├── src/main/java/...        # Código fonte da aplicação
+├── src/main/resources/      # Arquivos de configuração
 └── README.md
 ```
 
@@ -51,11 +51,19 @@ agendador-horarios/
 ### 🔹 Clonar o repositório
 
 ```bash
-git clone https://github.com/SamaraMelo299/agendador-horarios.git
-cd agendador-horarios
+git clone https://github.com/SamaraMelo299/ada-scheduler.git
+cd ada-scheduler
 ```
 
 ### 🔹 Executar a aplicação
+
+```bash
+Abra o projeto em uma IDE (IntelliJ recomendado)
+
+Localize a classe principal AgendadorHorariosApplication
+
+Execute a aplicação
+```
 
 Após iniciar, a API estará disponível em:
 
