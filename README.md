@@ -1,4 +1,4 @@
-# 📅 ADA SCHULDER (Agendador de Horários)
+# 📅 Ada Scheduler (Agendador de Horários)
 ### API REST com Java + Spring Boot
 
 ![Java](https://img.shields.io/badge/Lang-Java-red?logo=java)
